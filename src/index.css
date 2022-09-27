@@ -1,13 +1,55 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+span{
+ background-color: coral;
+  margin: 0% 6%;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+}
+.list_container{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  background-color: burlywood;
+  height: 100vh;
+  width: 100%;
+}
+.edit_save-btns-right{
+  width: 20%;
+  background-color: cadetblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.list_items-mapped{
+  overflow-y: scroll;
+  height: 50%;
+  width: 100%;
+}
+.edit_save-btns-right button{
+  height: 25%;
+  width: 40%;
+  cursor: pointer;
+  font-size: xx-large;
+  font-weight: bolder;
+  margin: 2%;
+
+}
+.edit_save-btns-right button:hover{
+  border-color: brown;
+  background-color: rebeccapurple;
+  color: white;
+  
+}
+.form{
+  margin: 5%;
+}
+.changeColor{
+  background-color: cadetblue;
+  color: red;
+}
+.changeColor1{
+  background-color: burlywood;
+  color: blue;
+}
+.changeColor2{
+  background-color: coral;
+  color: rgb(0, 255, 4);
 }
